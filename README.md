@@ -17,7 +17,7 @@ All components are generated under `src/pages/` directory. Each one of them repr
 - Result →   Component for displaying the test results, including a brief explanation and a suggestion for the user.
 
 ## Backlog ##
-- [x] [Figma design](https://www.figma.com/design/aOsrD5NB7P7fk4PW4yx3GI/Stress-App?node-id=0-1&t=sJkJps9i1wrpGhrA-1)
+- [x] [Figma design](https://www.figma.com/proto/aOsrD5NB7P7fk4PW4yx3GI/Stress-App?node-id=2015-5&p=f&t=b5oPqRCq2ZKBuvJj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)
 - [ ] Code refactoring:
     - [ ] Separate stylesheet code from component file (all)
     - [ ] Analyze ways to improve readability of calculus logic
