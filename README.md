@@ -24,6 +24,7 @@ All components are generated under `src/pages/` directory. Each one of them repr
 - [ ] UI redesign
 - [ ] Component tests
 - [ ] Installation guide
+- [ ] Create LICENSE file
 - [ ] Search tools to work with accessibility
 - [ ] Internationalization
 - [ ] Web version (React.js)
