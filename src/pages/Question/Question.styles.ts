@@ -35,5 +35,14 @@ export const styles = StyleSheet.create({
     },
     container: {
         flex: 1
+    },
+    section: { 
+        backgroundColor: 'teal', 
+        justifyContent: 'center', 
+        height: '40%' 
+    },
+    option: { 
+        paddingTop: 8, 
+        color: 'white' 
     }
 });

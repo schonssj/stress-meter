@@ -33,7 +33,7 @@ const Question = ({ navigation }) => {
         <Text style={{ textAlign: 'center', paddingVertical: '15%', fontSize: 32 }}>Pergunta { questions.indexOf(question) + 1 }</Text>
       </View>
       
-      <View style={{ backgroundColor: 'teal', justifyContent: 'center', height: '40%' }}>
+      <View style={styles.section}>
         
         <View style={{ justifyContent: 'center' }}>
           <Text style={styles.description}>{ question }</Text>
@@ -47,7 +47,7 @@ const Question = ({ navigation }) => {
             color="white"
             uncheckedColor="white"
           />
-          <Text style={{ paddingTop: 8, color: 'white' }}>1</Text>
+          <Text style={styles.option}>1</Text>
         
           <RadioButton
             value="2"
@@ -56,7 +56,7 @@ const Question = ({ navigation }) => {
             color="white"
             uncheckedColor="white"
           />
-          <Text style={{ paddingTop: 8, color: 'white' }}>2</Text>
+          <Text style={styles.option}>2</Text>
 
           <RadioButton
             value="3"
@@ -65,7 +65,7 @@ const Question = ({ navigation }) => {
             color="white"
             uncheckedColor="white"
           />
-          <Text style={{ paddingTop: 8, color: 'white' }}>3</Text>
+          <Text style={styles.option}>3</Text>
           <RadioButton
             value="4"
             status={ checked === '4' ? 'checked' : 'unchecked' }
@@ -73,7 +73,7 @@ const Question = ({ navigation }) => {
             color="white"
             uncheckedColor="white"
           />
-          <Text style={{ paddingTop: 8, color: 'white' }}>4</Text>
+          <Text style={styles.option}>4</Text>
           <RadioButton
             value="5"
             status={ checked === '5' ? 'checked' : 'unchecked' }
@@ -81,7 +81,7 @@ const Question = ({ navigation }) => {
             color="white"
             uncheckedColor="white"
           />
-          <Text style={{ paddingTop: 8, color: 'white'  }}>5</Text>
+          <Text style={styles.option}>5</Text>
         </View>
       </View>
 

@@ -3,7 +3,7 @@ import Result from '../pages/Result';
 import Question from '../pages/Question';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const Stack = createNativeStackNavigator()
+const Stack = createNativeStackNavigator();
 
 const AppNavigator = () => (
     <Stack.Navigator>

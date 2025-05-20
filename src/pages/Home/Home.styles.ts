@@ -31,5 +31,11 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         paddingBottom: '10%'
+    },
+    section: { 
+        backgroundColor: 'teal', 
+        justifyContent: 'center', 
+        height: '50%', 
+        alignItems: 'center' 
     }
 });

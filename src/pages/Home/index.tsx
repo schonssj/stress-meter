@@ -4,7 +4,7 @@ import { styles } from "./Home.styles";
 const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <View style={{ backgroundColor: 'teal', justifyContent: 'center', height: '50%', alignItems: 'center' }}>
+      <View style={styles.section}>
         <Text style={styles.title}>Responda as perguntas a seguir, sendo:</Text>
 
         <Text style={styles.text}> 1. Nunca</Text>
